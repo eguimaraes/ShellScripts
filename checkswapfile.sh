@@ -7,7 +7,7 @@ mkswap /dev/sdc1
 swapon /dev/sdc1
 swapon -s
 gedit /etc/fstab
-##adicionar esta linha/ swapfile   none    swap    sw    0   0
+##adicionar esta linha/ swapfile   none    swap    sw    0   0  indicando a partição/drive de swap
 cat /proc/sys/vm/swappiness
 sudo gedit /etc/sysctl.conf
 ##adicionar esta linha/ vm.swappiness = 40
