@@ -10,6 +10,8 @@ gedit /etc/fstab
 ##adicionar esta linha/ swapfile   none    swap    sw    0   0  indicando a partição/drive de swap
 cat /proc/sys/vm/swappiness
 sudo gedit /etc/sysctl.conf
-##adicionar esta linha/ vm.swappiness = 40
+##adicionar esta linha/ vm.swappiness = 80
+sudo swapoff -a 
+sudo swapon -a
 
 
