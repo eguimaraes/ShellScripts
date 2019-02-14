@@ -22,4 +22,5 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRA
 systemctl status nvidia-persistenced
 sudo systemctl enable nvidia-persistenced
 conda install numba cudatoolkit pyculib
+conda install -c anaconda cudatoolkit
 
