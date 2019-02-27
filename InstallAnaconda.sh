@@ -14,6 +14,8 @@ conda install --name aprendendo -c openastronomy healpy
 conda install --name aprendendo -c anaconda hdf5 
 conda install --name aprendendo -c anaconda astr
 conda install --name aprendendo -c anaconda astr
+conda install --name aprendendo -c anaconda ipython
+
 
 #Desativar Ambiente
 source deactivate aprendendo
