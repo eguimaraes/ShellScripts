@@ -1,3 +1,4 @@
+#https://help.ubuntu.com/community/MountingWindowsPartitions
 sudo blkid
 sudo mkdir /media/Data
 sudo cp /etc/fstab /etc/fstab.orig
