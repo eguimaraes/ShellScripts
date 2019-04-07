@@ -1,4 +1,5 @@
 #https://askubuntu.com/questions/61396/how-do-i-install-the-nvidia-drivers
+ubuntu-drivers devices
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 sudo apt upgrade
