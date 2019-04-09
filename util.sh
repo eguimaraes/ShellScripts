@@ -16,6 +16,11 @@ sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt update
 sudo apt install woeusb
 sudo woeusb --target-filesystem NTFS --device /home/xx/Documents/isos/Win10_1809Oct_English_x64.iso /dev/sdf
+#Cria USB Bootable a partir do Ubuntu unetbootin
+sudo add-apt-repository ppa:gezakovacs/ppa
+sudo apt-get update
+sudo apt-get install unetbootin
+
 
 InstallAnaconda.sh
 
