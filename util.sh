@@ -20,6 +20,7 @@ sudo woeusb --target-filesystem NTFS --device /home/xx/Documents/isos/Win10_1809
 sudo add-apt-repository ppa:gezakovacs/ppa
 sudo apt-get update
 sudo apt-get install unetbootin
+sudo apt-get install XQuartz
 
 
 InstallAnaconda.sh
