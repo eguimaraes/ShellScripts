@@ -21,7 +21,9 @@ sudo add-apt-repository ppa:gezakovacs/ppa
 sudo apt-get update
 sudo apt-get install unetbootin
 sudo apt-get install XQuartz
-
-
+#Install/Uninstall VBox
+dpkg -l | grep virtualbox
+sudo apt install virtualbox
+sudo apt-get remove virtualbox* --purge
 InstallAnaconda.sh
 
