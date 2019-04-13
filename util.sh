@@ -26,4 +26,5 @@ dpkg -l | grep virtualbox
 sudo apt install virtualbox
 sudo apt-get remove virtualbox* --purge
 InstallAnaconda.sh
-
+#
+dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
