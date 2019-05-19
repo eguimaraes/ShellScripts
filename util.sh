@@ -26,5 +26,5 @@ dpkg -l | grep virtualbox
 sudo apt install virtualbox
 sudo apt-get remove virtualbox* --purge
 InstallAnaconda.sh
-#
-dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+#dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
+sudo apt-get install gnome-system-tools
