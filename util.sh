@@ -40,3 +40,5 @@ cd cmake-$version.$build/
 ./bootstrap
 make -j4
 sudo make install
+$ cmake --version
+
