@@ -42,4 +42,5 @@ cd cmake-$version.$build/
 make -j4
 sudo make install
 $ cmake --version
+sudo apt-get install libeigen3-dev
 
