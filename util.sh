@@ -28,6 +28,7 @@ sudo apt-get remove virtualbox* --purge
 InstallAnaconda.sh
 #dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 sudo apt-get install gnome-system-tools
+sudo apt-get install libeigen3-dev
 #atualizar o cmake
 sudo apt-get purge cmake
 sudo apt-get install cmake
