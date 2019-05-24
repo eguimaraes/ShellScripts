@@ -44,4 +44,5 @@ sudo make install
 $ cmake --version
 sudo apt-get install libeigen3-dev
 sudo apt-get install libfftw3-dev libfftw3-doc
+sudo apt-get install build-essential manpages-dev
 
