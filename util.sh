@@ -1,3 +1,5 @@
+sudo dhclient -r enp0s3
+
 #instala o software center
 sudo apt install gnome-software
 sudo apt-get install apt-xapian-index
