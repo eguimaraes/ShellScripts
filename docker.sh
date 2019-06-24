@@ -17,3 +17,5 @@ docker image ls
 docker container ls
 docker container ls --all
 docker container ls -aq
+#callig Ubuntu Bash
+docker run --interactive --tty ubuntu bash
