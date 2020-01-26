@@ -1,0 +1,7 @@
+sudo apt-get install git
+git clone https://github.com/hsxavier/flask.git
+git clone https://github.com/damonge/CoLoRe.git
+sudo apt-get install libcfitsio-bin
+sudo apt-get install libcfitsio-doc
+sudo apt-get install libcfitsio5
+dpkg -l libcfitsio-bin
