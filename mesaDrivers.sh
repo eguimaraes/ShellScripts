@@ -1,4 +1,5 @@
 sudo glxinfo | grep "OpenGL version"
+glxinfo | grep '^direct rendering:'
 lspci | grep VGA
 sudo add-apt-repository ppa:ubuntu-x-swat/updates
 sudo apt-get dist-upgrade
