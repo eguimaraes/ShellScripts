@@ -4,4 +4,17 @@ git clone https://github.com/damonge/CoLoRe.git
 sudo apt-get install libcfitsio-bin
 sudo apt-get install libcfitsio-doc
 sudo apt-get install libcfitsio5
+sudo apt-get install g++
+sudo apt-get install gfortran
+sudo apt-get install make
 dpkg -l libcfitsio-bin
+dpkg -L libcfitsio-bin
+sudo apt-get install gnudatalanguage
+#baixar o cfitsio de https://heasarc.gsfc.nasa.gov/docs/software/fitsio/
+#Download and extract healpix https://sourceforge.net/projects/healpix/
+cd healpixdir
+./configure
+make
+make test
+make cpp-test
+
