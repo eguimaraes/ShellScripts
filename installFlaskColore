@@ -1,8 +1,8 @@
-sudo apt-get install git
 git clone https://github.com/hsxavier/flask.git
 git clone https://github.com/damonge/CoLoRe.git
 git clone https://github.com/FFTW/fftw3.git
 git clone https://github.com/Libsharp/libsharp.git
+sudo apt-get install git
 sudo apt-get install libchealpix-dev
 sudo apt-get install libcfitsio-bin
 sudo apt-get install libcfitsio-doc
@@ -10,9 +10,16 @@ sudo apt-get install libcfitsio5
 sudo apt-get install g++
 sudo apt-get install gfortran
 sudo apt-get install make
+sudo apt-get install gnudatalanguage
+sudo apt-get install libcr0
+sudo apt-get install libmpich12
+sudo apt-get install libmpich-dev
+sudo apt-get install libfftw3-dev libfftw3-doc
+sudo apt-get install libconfig-dev
+sudo apt-get install libhdf5*
+sudo apt-get install libhdf5-cpp-*
 dpkg -l libcfitsio-bin
 dpkg -L libcfitsio-bin
-sudo apt-get install gnudatalanguage
 #baixar o cfitsio de https://heasarc.gsfc.nasa.gov/docs/software/fitsio/
 #Download and extract healpix https://sourceforge.net/projects/healpix/ para o flask utilizar a versao 3.5
 cd healpixdir
@@ -20,12 +27,6 @@ cd healpixdir
 make
 make test
 make cpp-test
-sudo apt-get install libcr0
-sudo apt-get install libmpich12
-sudo apt-get install libmpich-dev
-sudo apt-get install libfftw3-dev libfftw3-doc
 #~/fftw-3.3.8/mpi$ sudo cp *.h /usr/include
 #sudo cp *.h /usr/local/include/
-sudo apt-get install libconfig-dev
-sudo apt-get install libhdf5*
-sudo apt-get install libhdf5-cpp-*
+
