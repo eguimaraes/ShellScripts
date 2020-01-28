@@ -3,6 +3,7 @@ git clone https://github.com/hsxavier/flask.git
 git clone https://github.com/damonge/CoLoRe.git
 git clone https://github.com/FFTW/fftw3.git
 git clone https://github.com/Libsharp/libsharp.git
+sudo apt-get install libchealpix-dev
 sudo apt-get install libcfitsio-bin
 sudo apt-get install libcfitsio-doc
 sudo apt-get install libcfitsio5
