@@ -16,3 +16,5 @@ git clone https://gitlab.com/libeigen/eigen.git
 git clone https://github.com/lesgourg/class_public
 git clone https://github.com/miguelzuma/hi_class_public
 cmake CMakeLists.txt -B build "-DCLASS_ROOT=/home/user/class_public" "-DEIGEN3_INCLUDE_DIR=/home/user/eigen"
+cmake CMakeLists.txt -B build "-DCLASS_ROOT=/home/user/hi_class_public" "-DEIGEN3_INCLUDE_DIR=/home/user/eigen"
+
