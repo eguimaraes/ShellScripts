@@ -1,3 +1,4 @@
+pip install cython
 sudo apt-get purge cmake
 sudo apt-get install OpenSSL*
 sudo apt-get install libssl-dev
@@ -8,5 +9,10 @@ sudo cp /usr/local/include/ /usr/include/ -r
 sudo cp /usr/local/lib/ /usr/lib/ -r
 sudo cp /usr/local/bin/ /usr/bin/ -r
 sudo apt-get install libboost-all-dev
-###
+sudo apt-get install libeigen3-dev
+sudo apt-get install libfftw3-dev libfftw3-doc
+sudo apt-get install build-essential manpages-dev
+git clone https://gitlab.com/libeigen/eigen.git
+git clone https://github.com/lesgourg/class_public
+git clone https://github.com/miguelzuma/hi_class_public
 
