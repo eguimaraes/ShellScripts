@@ -20,5 +20,6 @@ git clone https://github.com/mblum/libgp.git
 cmake CMakeLists.txt -B build "-DCLASS_ROOT=/home/user/class_public" "-DEIGEN3_INCLUDE_DIR=/home/user/eigen"
 cmake CMakeLists.txt -B build "-DCLASS_ROOT=/home/user/hi_class_public" "-DEIGEN3_INCLUDE_DIR=/home/user/eigen"
 cmake CMakeLists.txt -S $PWD -B build "-DCLASS_ROOT=/home/user/hi_class_public" "-DEIGEN3_INCLUDE_DIR=/home/user/eigen"
+#baixar e instalar http://class-code.net/
 
 
