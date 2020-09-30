@@ -1,0 +1,8 @@
+@ECHO OFF
+ECHO Apagar o Diretório: %CD%?
+PAUSE
+SET FOLDER=%CD%
+CD /
+DEL /F/Q/S "%FOLDER%" > NUL
+RMDIR /Q/S "%FOLDER%"
+EXIT
