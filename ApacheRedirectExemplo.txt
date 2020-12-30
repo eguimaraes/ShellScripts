@@ -1,0 +1,6 @@
+LoadModule proxy_module "modules/mod_proxy.c"
+LoadModule proxy_module "modules/mod_rewrite.c"
+ProxyRequests On
+RewriteEngine  on
+ProxyPass "/"  "http://192.168.0.xx/"
+ProxyPassReverse "/"  "http://192.168.0.xx/"
