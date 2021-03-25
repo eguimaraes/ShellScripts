@@ -1,0 +1,5 @@
+[wsl2]
+memory=32G
+processors=4
+swap=200GB
+swapFile=I:\swap.vhdx
