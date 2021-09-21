@@ -1,0 +1,7 @@
+Install-Module PSWindowsUpdate
+Get-WindowsUpdate
+Install-WindowsUpdate
+Restart-Computer
+Install-WindowsFeature RemoteAccess
+Install-WindowsFeature DirectAccess-VPN -IncludeManagementTools
+Install-WindowsFeature Routing -IncludeManagementTools
