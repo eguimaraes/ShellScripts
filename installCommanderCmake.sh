@@ -1,0 +1,1 @@
+cmake -DCMAKE_INSTALL_PREFIX=$PWD/install -DCMAKE_C_COMPILER=icc -DCMAKE_CXX_COMPILER=icpc -DCMAKE_Fortran_COMPILER=ifort -DMPI_C_COMPILER=mpiicc -DMPI_CXX_COMPILER=mpiicpc -DMPI_Fortran_COMPILER=mpiifort -DFFTW_ENABLE_AVX2=OFF -S /mnt/d/karin/commanderCursoHDF5/Commander -B /mnt/d/karin/commanderCursoHDF5/Commander/build
