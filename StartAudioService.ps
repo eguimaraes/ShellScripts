@@ -1,0 +1,7 @@
+Get-Service | Where {$_.Name -match "audio"} | format-table -autosize
+Get-Service | Where {$_.Name -match "audio"} | start-service
+Get-Service | Where {$_.Name -match "audio"} | set-service -StartupType "Automatic"
+Get-WmiObject -class win32_service -filter "Name='AudioSrv'"
+start-service Audiosrv
+stop-service Audiosrv
+start-service Audiosrv
