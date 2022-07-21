@@ -1,0 +1,8 @@
+gpedit.msc
+Local Computer Policy -> 
+Administrative Templates -> 
+Windows Components ->
+Remote Desktop Services ->
+Remote Desktop Session Host-> 
+Device and Resource Redirection -> 
+Enable "Allow audio and video playback redirection" and "Allow audio recording redirection".
