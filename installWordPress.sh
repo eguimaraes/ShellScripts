@@ -38,3 +38,28 @@ sudo nano /etc/apache2/sites-available/wordpress.conf
 #
 sudo a2ensite wordpress
 sudo systemctl reload apache2
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+sudo a2dissite 000-default
+sudo service apache2 reload
+sudo mysql -u root
+#mysql> CREATE DATABASE wordpress;
+#mysql> CREATE USER wordpress@localhost IDENTIFIED BY '<your-password>';
+mysql> CREATE DATABASE wordpress;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> CREATE USER wordpress@localhost IDENTIFIED BY '<your-password>';
+Query OK, 1 row affected (0,00 sec)
+
+mysql> GRANT SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,ALTER
+    -> ON wordpress.*
+    -> TO wordpress@localhost;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> FLUSH PRIVILEGES;
+Query OK, 1 row affected (0,00 sec)
+
+mysql> quit
+Bye
+
+
