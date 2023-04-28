@@ -36,3 +36,5 @@ sudo nano /etc/apache2/sites-available/wordpress.conf
     </Directory>
 </VirtualHost>
 #
+sudo a2ensite wordpress
+sudo systemctl reload apache2
