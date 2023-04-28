@@ -18,3 +18,5 @@ sudo apt install apache2 \
 sudo mkdir -p /srv/www
 sudo chown www-data: /srv/www
 curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
+sudo ufw allow 80/tcp comment 'accept Apache'
+sudo ufw allow 443/tcp comment 'accept HTTPS connections'
