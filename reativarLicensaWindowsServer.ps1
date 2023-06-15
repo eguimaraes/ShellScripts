@@ -1,0 +1,2 @@
+slmgr -rearm
+slmgr -dli
