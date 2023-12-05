@@ -1,0 +1,2 @@
+git branch -a
+git checkout nome_branch
