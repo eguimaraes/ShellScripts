@@ -1,0 +1,1 @@
+nano ~/.bash_history
