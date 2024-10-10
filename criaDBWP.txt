@@ -1,0 +1,6 @@
+sudo mysql
+CREATE DATABASE wp_site1;
+;
+
+GRANT ALL PRIVILEGES ON wp_site1.* TO 'wp_user1'@'localhost';
+FLUSH PRIVILEGES;
