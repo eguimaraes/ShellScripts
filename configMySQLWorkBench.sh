@@ -15,3 +15,5 @@ sudo ufw allow 3306/tcp
 # For CentOS/RedHat:
 sudo firewall-cmd --permanent --zone=public --add-port=3306/tcp
 sudo firewall-cmd --reload
+
+UPDATE wp_users SET user_pass = MD5('new_password') WHERE user_login = 'username';

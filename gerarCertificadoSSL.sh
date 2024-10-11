@@ -1,0 +1,1 @@
+sudo certbot certonly --manual --preferred-challenges dns -d example.com -d *.example.com
